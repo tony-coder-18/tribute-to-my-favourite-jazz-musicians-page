@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"> -->
+    <link href="tailwind.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- DONE -->
+    <section class="section section--hero">
+        <div class="container flex flex-col justify-center tracking-tighter gap-8 h-full">
+            <h1 class="text-7xl uppercase">Does It Get any Cooler than this?</h1>
+            <div class="flex flex-col gap-2  quote">
+                <p class="text-3xl">
+                    “If jazz means anything,”... “it is freedom of expression.”
+                </p>
+                <p class="text-1xl quote__author">
+                    - The Duke.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- DOING -->
+    <section class="flex flex-col justify-start align-start section section--text">
+        <div class="container--text flex flex-col gap-9">
+            <h2 class="text-7xl font-bold">The Nature of Jazz</h2>
+            <div class="flex flex-col gap-4">
+                <p class="text-4xl text--revealing">
+                    Jazz developed in the United States in the very early part of the 
+                    20th century. 
+                    New Orleans, near the mouth of the Mississippi River, played a 
+                    key role in this development.
+                    The city's population was more diverse than anywhere else in the South, 
+                    and people of African, French, Caribbean, Italian, German, Mexican, 
+                    and American Indian, as well as English, 
+                    descent interacted with one another.
+                </p>
+                <p class="text">
+                    - Text extracted from the <a class="underline link--color-body" target="_blank" href="https://americanhistory.si.edu/explore/projects/smithsonian-jazz/education/what-jazz">National Museum of American History Website</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section--images">
+        <div class="container--images">
+            <figure class="figure--main">
+                <img src="images/images-new/bill-b-w.jpg"
+                    alt="The beautiful MDN logo." />
+            </figure>
+            <figure>
+                <img src="images/images-new/baker-b-w.jpg" alt="The beautiful MDN logo." />
+            </figure>
+            <figure>
+                <img src="images/images-new/ella-b-w.jpg" alt="The beautiful MDN logo." />
+            </figure>
+            <figure>
+                <img src="images/images-new/miles-b-w.jpg" alt="The beautiful MDN logo." />
+            </figure>
+            <figure>
+                <img src="images/images-new/monk-b-w.jpg" alt="The beautiful MDN logo." />
+            </figure>
+        </div>
+    </section>
+
+    <!-- <section class="section section--text">
+        <div class="container--text">
+            <h1 class="text-4xl">Onze koffies, altijd Fair Trade</h1>
+            <p class="text-xl">
+                Al onze koffies zijn, op eigen wijze, Fair Trade! Met de
+                aankoop van Café del Mar koffie, doneer jij namelijk altijd
+                € 0,75 per kg. Dit gaat naar één van onze projecten in
+                Midden- en Zuid-Amerika die onder beheer staan van
+                Stichting Solidaridad.
+            </p>
+            <a href="">
+                Bekijk onze projecten
+            </a>
+        </div>
+    </section> -->
+
+    <section class="section section-footer">
+        <div class="container flex flex-col gap-4 text-right">
+            <h1 class="text-7xl uppercase tracking-tighter">It does not.</h1>
+            <div class="flex flex-col gap-3 quote">
+                <p class="text-3xl">
+                    “I'll play it first and tell you what it is later.”
+                </p>
+                <p class="text-1xl quote__author">
+                    - Miles.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+
+    <script src="script.js"></script>
+    <script>
+        // // use a script tag or an external JS file
+        // document.addEventListener("DOMContentLoaded", (event) => {
+        //     // gsap.registerPlugin(Flip, ScrollTrigger, Observer, ScrollToPlugin, TextPlugin);
+        //     // // gsap code here!
+
+        //     // gsap.to('.container--images', {
+        //     //     scrollTrigger: '.container--images', // start animation when ".box" enters the viewport
+        //     //     fontSize: 16,
+        //     //     start: 'top top', // when the top of the trigger hits the top of the viewport
+        //     //     end: 'bottom top', // end after scrolling 500px beyond the start
+        //     //     scrub: 1,
+        //     //     pin: true
+        //     // });
+        // });
+    </script>
+</body>
+
+</html>
